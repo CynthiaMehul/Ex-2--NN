@@ -48,8 +48,9 @@ STEP 9:For ‘N ‘ iterations ,do the following:<BR>
         W (i+i)= W(i) + learning_rate*(y(i)-t(i))*x(i)<BR>
 STEP 10:Plot the error for each iteration <BR>
 STEP 11:Print the accuracy<BR>
+
 # PROGRAM:
-''' 
+```python
 import numpy as np                                                      
 import pandas as pd                                                    
 import matplotlib.pyplot as plt
@@ -130,7 +131,7 @@ plt.xlabel('Epoch')
 plt.ylabel('Errors')
 plt.show()
 
-'''
+```
 
 # OUTPUT:
 
